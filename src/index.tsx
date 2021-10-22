@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AudioPlayer from './AudioPlayer';
-import tracks from './tracks';
+// import AudioPlayer from './AudioPlayer';
+// import tracks from './tracks';
+import Dropdown from './components/Dropdown/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AudioPlayer tracks={tracks} />
+    <Dropdown></Dropdown>
   </React.StrictMode>,
   document.getElementById('root')
 );
